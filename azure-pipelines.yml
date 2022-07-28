@@ -20,4 +20,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- task: SonarQubeAnalyze@5
+- task: SonarQubePrepare@5
+  inputs:
+    SonarQube: 'SonarQube PROD'
+    scannerMode: 'Other'
