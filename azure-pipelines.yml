@@ -26,4 +26,3 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'Networkchange'
     projectName: 'Networkchange'
-    - task: SonarQubeAnalyze@5
