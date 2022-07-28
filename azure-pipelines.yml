@@ -26,3 +26,8 @@ steps:
     scannerMode: 'MSBuild'
     projectKey: 'Networkchange'
     projectName: 'Networkchange'
+
+    
+- task: SonarQubePublish@4
+  inputs:
+    pollingTimeoutSec: '300'
