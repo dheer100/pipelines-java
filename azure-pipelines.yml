@@ -23,4 +23,6 @@ steps:
 - task: SonarQubePrepare@5
   inputs:
     SonarQube: 'SonarQube PROD'
-    scannerMode: 'Other'
+    scannerMode: 'MSBuild'
+    projectKey: 'Networkchange'
+    projectName: 'Networkchange'
